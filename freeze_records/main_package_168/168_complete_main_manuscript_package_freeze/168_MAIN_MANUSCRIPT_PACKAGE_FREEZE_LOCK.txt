@@ -1,0 +1,16 @@
+﻿MAIN MANUSCRIPT PACKAGE FREEZE LOCK
+===================================
+
+Status: FROZEN_READY
+Timestamp: 2026-08-21 23:38:27.325787
+Main Table: Table 1
+Main Figures: Figures 1-5
+Supplementary Package: Tables S1-S10; Figures S1-S8
+Scope: blood transcriptomics only
+New inferential statistics in Script 168: NO
+Integrity hash: MD5
+
+Manifest:
+SEPSIS_PROJECT_DIR/results/blood_endotypes_biomarkers/168_complete_main_manuscript_package_freeze/tables/168_COMPLETE_Main_Manuscript_Package_Manifest.xlsx
+
+This file records the main manuscript artifact state that passed Script 168 FINAL. Any subsequent modification of a frozen main manuscript artifact will change its MD5 hash and requires rerunning Script 168. 

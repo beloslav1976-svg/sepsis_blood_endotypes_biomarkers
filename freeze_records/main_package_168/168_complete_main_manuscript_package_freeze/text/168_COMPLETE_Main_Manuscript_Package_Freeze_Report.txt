@@ -1,0 +1,69 @@
+﻿=====================================================================
+COMPLETE MAIN MANUSCRIPT PACKAGE FREEZE REPORT
+Script 168 FINAL
+=====================================================================
+
+Project:
+SEPSIS_PROJECT_DIR 
+
+Timestamp:
+2026-08-21 23:38:27.325787 
+
+STATUS
+------
+FROZEN_READY 
+
+MAIN MANUSCRIPT ARTIFACTS
+-------------------------
+Main Table 1
+Main Figures 1-5
+
+SUPPLEMENTARY PACKAGE
+---------------------
+Script 167 FROZEN_READY = TRUE 
+
+AUDIT SUMMARY
+-------------
+# A tibble: 11 × 4
+   audit_item                                  expected observed status
+   <chr>                                       <chr>    <chr>    <chr> 
+ 1 Supplementary package freeze lock           FOUND    TRUE     PASS  
+ 2 Supplementary package FROZEN_READY          TRUE     TRUE     PASS  
+ 3 Main Table 1                                1        1        PASS  
+ 4 Readable Main Table 1                       1        1        PASS  
+ 5 Main Figures PNG                            5        5        PASS  
+ 6 Main Figures PDF                            5        5        PASS  
+ 7 Main Figures TIFF                           5        5        PASS  
+ 8 English main-figure captions                5        5        PASS  
+ 9 Expected source-script provenance           PASS     TRUE     PASS  
+10 Possible direct identifiers in Main Table 1 0        0        PASS  
+11 Caption-label review notes                  manual … 0        CLEAR 
+
+NUMERICAL REPORTING GUARDRAILS
+------------------------------
+# A tibble: 19 × 4
+   domain            metric                 frozen_value reporting_note
+   <chr>             <chr>                  <chr>        <chr>         
+ 1 Discovery cohort  Sepsis blood samples   35           BP            
+ 2 Discovery cohort  Healthy blood controls 10           BC            
+ 3 Primary DE        Differentially expres… 2659         1660 up; 999 …
+ 4 Batch-adjusted DE Differentially expres… 4125         2093 up; 2032…
+ 5 Robust core       Genes                  1796         1133 up; 663 …
+ 6 SRS               BP SRS distribution    SRS1=28; SR… Primary Sepst…
+ 7 CTS               BP CTS distribution    CTS1=14; CT… Primary BP-on…
+ 8 Five-gene score   Primary panel          CD177; HK3;… Biology-guide…
+ 9 Five-gene score   Score vs SRSq          rho=0.764986 Discovery blo…
+10 Five-gene score   Score across CTS       Kruskal-Wal… Discovery blo…
+11 Clinical context  Score vs CRP           rho=0.57435… Only globally…
+12 GSE154918         Primary infection-con… 0.656        Primary endpo…
+13 GSE185263         Score vs continuous 2… rho=0.31149… Prespecified …
+14 GSE185263         SOFA >=2 vs 0-1 AUC    0.669887     Secondary bin…
+15 GSE185263         Adjusted SOFA beta     0.116609     Adjusted for …
+16 GSE185263         Component genes with … 5/5          All five BH-s…
+17 GSE185263         Mortality AUC          0.627264     Secondary ana…
+18 GSE185263         ICU vs Emergency Room… 0.643866     Secondary ana…
+19 GSE185263         Sepsis vs healthy AUC  0.949451     Contextual on…
+
+INTERPRETATION
+--------------
+The complete publication-facing main manuscript package passed the critical Script 168 integrity audit. Main Table 1 and Main Figures 1-5 are linked to the expected frozen source scripts. Required figure formats and English captions are present. The previously frozen Supplementary Package was confirmed. MD5 hashes define the frozen state. No inferential statistical analysis was performed. 

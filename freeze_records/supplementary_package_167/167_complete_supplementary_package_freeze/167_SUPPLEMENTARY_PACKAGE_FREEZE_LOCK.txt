@@ -1,0 +1,15 @@
+﻿SUPPLEMENTARY PACKAGE FREEZE LOCK
+=================================
+
+Status: FROZEN_READY
+Timestamp: 2026-08-21 23:27:54.298627
+Tables: Supplementary Tables S1-S10
+Figures: Supplementary Figures S1-S8
+Scope: blood transcriptomics only
+New inferential statistics in Script 167: NO
+Integrity manifest: MD5
+
+Primary manifest:
+SEPSIS_PROJECT_DIR/results/blood_endotypes_biomarkers/167_complete_supplementary_package_freeze/tables/167_COMPLETE_Supplementary_Package_Manifest.xlsx
+
+This file records the Supplementary package state that passed the critical Script 167 FINAL v2 integrity checks. Any subsequent modification of a frozen artifact will change its MD5 hash and should trigger a new Script 167 audit. 

@@ -1,0 +1,27 @@
+MAIN MANUSCRIPT STORY / ARTIFACT MAP
+====================================
+
+Results 3.1
+Artifact: Main Table 1
+Message: Discovery cohort and available clinical characteristics
+
+Results 3.2
+Artifact: Main Figure 1
+Message: Sepsis produces a broad and robust blood transcriptomic response
+
+Results 3.3–3.5
+Artifact: Main Figure 2
+Message: SRS and CTS define structured molecular heterogeneity captured by the five-gene score
+
+Results 3.6–3.7
+Artifact: Main Figure 3
+Message: The host-response axis relates primarily to inflammation and converges with published signatures
+
+Results 3.8
+Artifact: Main Figure 4
+Message: GSE154918 provides directional external replication but limited primary discrimination
+
+Results 3.9
+Artifact: Main Figure 5
+Message: GSE185263 externally replicates the association between the five-gene score and organ-dysfunction severity
+

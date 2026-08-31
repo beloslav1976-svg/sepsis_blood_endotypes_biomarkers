@@ -1,0 +1,73 @@
+﻿=====================================================================
+COMPLETE SUPPLEMENTARY PACKAGE FREEZE REPORT
+Script 167 FINAL v2
+=====================================================================
+
+Project:
+SEPSIS_PROJECT_DIR 
+
+Timestamp:
+2026-08-21 23:27:54.298627 
+
+OVERALL STATUS
+--------------
+FROZEN_READY 
+
+SUPPLEMENTARY ARCHITECTURE
+--------------------------
+Tables: S1-S10
+Figures: S1-S8
+
+MANDATORY ARTIFACT AUDIT
+------------------------
+# A tibble: 15 × 4
+   audit_item                                  expected observed status
+   <chr>                                       <chr>    <chr>    <chr> 
+ 1 Supplementary Tables                        10       10       PASS  
+ 2 Supplementary Figures PNG                   8        8        PASS  
+ 3 Supplementary Figures PDF                   8        8        PASS  
+ 4 Supplementary Figures TIFF                  8        8        PASS  
+ 5 English figure captions                     8        8        PASS  
+ 6 Readable supplementary-table workbooks      10       10       PASS  
+ 7 Table numbering S1-S10                      PASS     TRUE     PASS  
+ 8 Figure numbering S1-S8                      PASS     TRUE     PASS  
+ 9 Expected source-script provenance           PASS     TRUE     PASS  
+10 Possible direct-identifier warnings         0        0        PASS  
+11 Informational scope review notes in tables  manual … 0        CLEAR 
+12 Informational wording review notes in tabl… manual … 0        CLEAR 
+13 Informational scope review notes in captio… manual … 0        CLEAR 
+14 Informational wording review notes in capt… manual … 0        CLEAR 
+15 Caption-label review notes                  manual … 1        NOTE  
+
+INFORMATIONAL REVIEW NOTES
+--------------------------
+Table scope notes = 0
+Table wording notes = 0
+Caption scope notes = 0
+Caption wording notes = 0
+Caption-label notes = 1
+
+These content scans are informational only. They do not invalidate the analytical freeze unless a possible direct identifier is detected. 
+
+REPORTING GUARDRAILS
+--------------------
+RG01. The manuscript is blood-only.
+RG02. Urine and urinary transcriptomic analyses are not part of this manuscript.
+RG03. lncRNA-focused analyses and paraspeckle analyses are not part of this manuscript.
+RG04. The incidental presence of an lncRNA gene in complete transcriptomic tables does not constitute an lncRNA-focused analysis.
+RG05. The primary study-derived panel is CD177, HK3, IRAK3, CARD11, and IKZF2.
+RG06. The primary five-gene panel is described as a biology-guided host-response signature.
+RG07. Internal discrimination is saturated and does not identify a unique optimal classifier.
+RG08. SRS and CTS were not used to select the primary five-gene panel.
+RG09. The five-gene score is a molecular host-response readout, not a clinically calibrated assay.
+RG10. GSE154918 provides an external infection-control context with a non-significant primary endpoint.
+RG11. GSE185263 provides external replication of an organ-dysfunction-severity association.
+RG12. Mortality and ICU-versus-Emergency-Room analyses in GSE185263 are secondary.
+RG13. Sepsis-versus-healthy discrimination in GSE185263 is contextual.
+RG14. The five GSE185263 collection locations are sensitivity strata within one dataset.
+RG15. The pooled location correlation is descriptive and does not constitute five independent validation cohorts.
+RG16. Script 167 performs publication-package integrity checks only and introduces no new inferential statistics.
+
+INTERPRETATION
+--------------
+All mandatory Supplementary Tables S1-S10 and Figures S1-S8 were located and passed the critical integrity audit. Expected source-script provenance was confirmed. No possible direct identifier was detected. The MD5 manifest defines the frozen Supplementary package. No inferential statistical analysis was performed by Script 167. 

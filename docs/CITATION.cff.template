@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated peer-reviewed article and archived repository release."
+title: "Sepsis blood endotypes and biomarkers"
+version: "v0.1.0"
+date-released: "YYYY-MM-DD"
+repository-code: "https://github.com/OWNER/REPOSITORY"
+doi: "10.5281/zenodo.PLACEHOLDER"
+authors:
+  - family-names: "FAMILY_NAME"
+    given-names: "GIVEN_NAME"
+    affiliation: "AFFILIATION"
+preferred-citation:
+  type: article
+  title: "ARTICLE_TITLE"
+  authors:
+    - family-names: "FAMILY_NAME"
+      given-names: "GIVEN_NAME"
+  journal: "Critical Care"
+  year: "YYYY"
+  doi: "ARTICLE_DOI_PLACEHOLDER"

@@ -1,0 +1,30 @@
+MANUSCRIPT -> SUPPLEMENTARY CROSS-REFERENCE MAP
+================================================
+
+Results 3.1 — Discovery cohort and dataset
+Supplementary: Table S1; Figure S1
+
+Results 3.2 — Broad and robust blood transcriptomic response
+Supplementary: Table S2; Table S3; Figure S2
+
+Results 3.3 — SRS and CTS blood transcriptomic heterogeneity
+Supplementary: Table S4; Figure S3
+
+Results 3.4 — Biology-guided five-gene host-response signature
+Supplementary: Table S5; Table S6; Figure S4
+
+Results 3.5 — Five-gene score recapitulates SRS and CTS structure
+Supplementary: Table S4; Table S6
+
+Results 3.6 — Clinical associations and systemic inflammation
+Supplementary: Table S7; Figure S5
+
+Results 3.7 — Published transcriptomic signatures converge on a shared host-response axis
+Supplementary: Table S8; Figure S6
+
+Results 3.8 — External evaluation in GSE154918
+Supplementary: Table S9; Figure S7
+
+Results 3.9 — External organ-dysfunction-severity replication in GSE185263
+Supplementary: Table S10; Figure S8
+

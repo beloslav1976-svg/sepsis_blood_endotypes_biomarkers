@@ -1,0 +1,7 @@
+﻿"artifact_id","artifact_type","expected_source_scripts","selected_path","provenance_match"
+"Main Table 1","Table","151","SEPSIS_PROJECT_DIR/results/blood_endotypes_biomarkers/151_Table1_TableS1_discovery_cohort/tables/151_Table1_discovery_blood_cohort.xlsx",TRUE
+"Main Figure 1","Figure","147","SEPSIS_PROJECT_DIR/results/blood_endotypes_biomarkers/147_Figure1_robust_blood_response/figures/147_Figure1_robust_blood_transcriptomic_response.png",TRUE
+"Main Figure 2","Figure","145b;145","SEPSIS_PROJECT_DIR/results/blood_endotypes_biomarkers/145b_polished_main_figure/figures/145b_Figure2_endotype_five_gene_host_response.png",TRUE
+"Main Figure 3","Figure","148","SEPSIS_PROJECT_DIR/results/blood_endotypes_biomarkers/148_Figure3_clinical_signature_convergence/figures/148_Figure3_clinical_context_signature_convergence.png",TRUE
+"Main Figure 4","Figure","149","SEPSIS_PROJECT_DIR/results/blood_endotypes_biomarkers/149_Figure4_GSE154918_external_validation/figures/149_Figure4_GSE154918_external_validation.png",TRUE
+"Main Figure 5","Figure","150","SEPSIS_PROJECT_DIR/results/blood_endotypes_biomarkers/150_Figure5_GSE185263_severity_validation/figures/150_Figure5_GSE185263_severity_validation.png",TRUE
