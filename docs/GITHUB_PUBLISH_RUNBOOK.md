@@ -15,8 +15,8 @@ Run these checks from the repository root before the first public push:
 git status --short
 git log --oneline --decorate -3
 git remote -v
-git grep -n --fixed-strings 'LOCAL_USER_PATH_PLACEHOLDER' HEAD
-git grep -n --fixed-strings 'LOCAL_PROJECT_PATH_PLACEHOLDER' HEAD
+git grep -n --fixed-strings 'PRIVATE_USER_PATH_TOKEN' HEAD
+git grep -n --fixed-strings 'PRIVATE_PROJECT_PATH_TOKEN' HEAD
 ```
 
 Expected results:

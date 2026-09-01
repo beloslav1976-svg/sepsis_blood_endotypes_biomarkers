@@ -17,13 +17,14 @@ Date: 2026-08-31
 
 ## Release Status
 
-Current status: **published public GitHub repository, pending final release
-metadata and Zenodo archival**.
+Current status: **published public GitHub repository, Zenodo-ready metadata
+prepared, pending Zenodo archival**.
 
-The current repository is suitable as the public GitHub base after the final
-license, data availability, citation, and Zenodo metadata are confirmed. It
-should not yet be treated as the final archived release because the Zenodo DOI,
-article DOI, author metadata, and license are still placeholders.
+The current repository is suitable as the public GitHub base after final data
+availability wording and Zenodo archival are complete. It should not yet be
+treated as the final archived release because the Zenodo DOI has not yet been
+issued. The article DOI is not yet known and is intentionally not included in
+the current Zenodo metadata.
 
 The public release should be created from `github_repo_public_release_clean`,
 not from any intermediate staging history that contained local provenance paths.
@@ -31,16 +32,13 @@ not from any intermediate staging history that contained local provenance paths.
 ## Remaining Blockers Before Public Release
 
 1. Final Zenodo DOI is not yet available.
-2. License terms for code, tables, and figure exports are not yet confirmed.
+2. Zenodo GitHub integration must be enabled before creating the GitHub release
+   intended for archival.
 3. Final accession-level data availability wording for primary human sequencing
    data is still pending.
-4. `docs/CITATION.cff.template` and `docs/ZENODO_METADATA.template.json` must
-   be finalized after author, repository, DOI, date, and license metadata are
-   confirmed.
+4. The article DOI should be added later when known.
 5. The staged R scripts use `SEPSIS_PROJECT_DIR` instead of personal local
    paths, but rerunning them still requires the expected input data layout.
-6. Zenodo GitHub integration must be enabled before creating the GitHub release
-   intended for archival.
 
 ## Privacy and Workbook Review
 
@@ -89,8 +87,8 @@ set is prepared.
 
 1. Keep the manuscript DOCX outside the public repository; the journal article
    should cite the released repository and Zenodo DOI.
-2. Confirm license and data availability wording.
-3. Finalize `CITATION.cff` and `.zenodo.json` from the provided templates.
+2. Confirm data availability wording.
+3. Enable the repository in Zenodo GitHub integration.
 4. Regenerate `MANIFEST.csv` after the final public file set is chosen.
 5. Create the public GitHub repository, push `main`, create a release tag, and
    archive the tagged release with Zenodo.

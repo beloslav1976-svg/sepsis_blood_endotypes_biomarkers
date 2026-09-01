@@ -13,15 +13,17 @@ transcriptomic sepsis endotype and biomarker manuscript.
 The manuscript DOCX is intentionally not included. The final peer-reviewed
 article should cite this repository and the Zenodo archive DOI.
 
+Metadata for Zenodo archival is provided in root `.zenodo.json`. The article DOI
+is not yet known and is intentionally not included in this initial release
+metadata.
+
 ## Before Publishing
 
 - Confirm the final GitHub repository URL:
   `https://github.com/beloslav1976-svg/sepsis_blood_endotypes_biomarkers`
-- Confirm license terms and add the selected `LICENSE` file.
+- Confirm MIT license terms.
 - Confirm primary sequencing data accession wording.
-- Replace template placeholders in `docs/CITATION.cff.template` and
-  `docs/ZENODO_METADATA.template.json`.
-- Copy the finalized Zenodo metadata to root `.zenodo.json`.
+- Confirm the repository is enabled in Zenodo GitHub integration.
 - Create a signed or otherwise traceable release tag if required by the study
   team.
 - Archive the tagged release with Zenodo and update the article data

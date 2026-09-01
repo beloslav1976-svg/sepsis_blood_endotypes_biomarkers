@@ -1,7 +1,7 @@
 {
   "title": "Sepsis blood endotypes and biomarkers publication package",
   "upload_type": "software",
-  "description": "Publication-facing code, figures, tables, supplementary files, freeze records, and audit documentation for the blood transcriptomic sepsis endotype and biomarker manuscript.",
+  "description": "Publication-facing R code, figures, tables, supplementary files, freeze records, and audit documentation for the blood transcriptomic sepsis endotype and biomarker manuscript.",
   "creators": [
     {
       "name": "Beloussov, Vyacheslav",
@@ -21,7 +21,10 @@
     "blood transcriptomics",
     "endotypes",
     "biomarkers",
-    "RNA-seq"
+    "targeted RNA sequencing",
+    "RNA-seq",
+    "DESeq2",
+    "critical care"
   ],
   "license": "mit-license",
   "version": "v0.1.0",
@@ -33,7 +36,6 @@
       "resource_type": "software"
     }
   ],
-  "access_right": "open",
   "custom": {
     "code:codeRepository": "https://github.com/beloslav1976-svg/sepsis_blood_endotypes_biomarkers"
   },

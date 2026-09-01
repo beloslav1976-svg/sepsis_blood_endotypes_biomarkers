@@ -11,20 +11,14 @@ DOI for the manuscript data availability statement.
 
 Zenodo archival is not yet complete.
 
-Do not create the final GitHub release until the root `.zenodo.json`, license,
-and final author metadata are confirmed.
+The root `.zenodo.json`, `CITATION.cff`, and MIT `LICENSE` are prepared for the
+initial `v0.1.0` archival release. The article DOI is not yet known and is not
+included in the current Zenodo metadata.
 
 ## Required Before Release
 
-- Confirm final creator list in Zenodo format: `Family, Given`.
-- Confirm creator affiliations and ORCID identifiers, if available.
-- Confirm repository license terms for code, tables, figures, and freeze
-  records.
-- Add the selected `LICENSE` file.
-- Copy `docs/ZENODO_METADATA.template.json` to `.zenodo.json` and replace all
-  placeholders.
-- Optionally copy `docs/CITATION.cff.template` to `CITATION.cff`; when both
-  files exist, Zenodo uses `.zenodo.json` for GitHub archival metadata.
+- Confirm that the creator list matches the intended author order.
+- Confirm that MIT is acceptable for code, tables, figures, and freeze records.
 - Regenerate `MANIFEST.csv` after final file changes.
 
 ## Enable GitHub Integration In Zenodo
@@ -40,7 +34,8 @@ After this is enabled, new GitHub releases are ingested by Zenodo.
 ## Create The GitHub Release
 
 Create the release only after `.zenodo.json`, `LICENSE`, and final metadata are
-committed and pushed.
+committed and pushed, and after the repository is enabled in Zenodo GitHub
+integration.
 
 ```powershell
 git tag -a v0.1.0 -m "Sepsis blood endotypes and biomarkers publication package"
@@ -56,6 +51,7 @@ gh release create v0.1.0 --title "Sepsis blood endotypes and biomarkers publicat
    - `README.md`;
    - `docs/DATA_AVAILABILITY_DRAFT.md`;
    - `docs/RELEASE_READINESS_AUDIT_2026-08-31.md`;
+   - `.zenodo.json`;
    - manuscript data availability statement.
 4. Commit and push the DOI update.
 

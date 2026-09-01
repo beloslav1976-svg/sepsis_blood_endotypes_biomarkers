@@ -4,7 +4,7 @@
 
 - Confirm repository name and visibility:
   `https://github.com/beloslav1976-svg/sepsis_blood_endotypes_biomarkers`
-- Confirm license terms for code, tables, and figure exports.
+- MIT license terms selected for the repository release.
 - Keep the working manuscript DOCX out of the public GitHub repository; the
   journal article will cite the repository after release.
 - Use `github_repo_public_release_clean/sepsis_blood_endotypes_biomarkers` for
@@ -19,7 +19,7 @@
 - Verify no direct identifiers are present in all staged spreadsheets.
 - Decide whether earlier import/DESeq2 scripts before Script 135 should be
   included after privacy review.
-- Finalize `.zenodo.json` from `docs/ZENODO_METADATA.template.json`.
+- Root `.zenodo.json` prepared for `v0.1.0`; article DOI is not yet included.
 
 ## Before Zenodo Archival
 

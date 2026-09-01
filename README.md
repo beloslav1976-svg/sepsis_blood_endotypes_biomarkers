@@ -64,8 +64,9 @@ should cite the final GitHub repository and Zenodo DOI after release. See
 
 Publication metadata templates are provided in `docs/CITATION.cff.template`,
 `docs/ZENODO_METADATA.template.json`, and `docs/GITHUB_RELEASE_DRAFT.md`.
-They contain placeholders and should be finalized only after author metadata,
-license, article DOI, and Zenodo DOI are confirmed.
+Root `CITATION.cff`, `.zenodo.json`, and `LICENSE` have been prepared for the
+initial Zenodo archival release. The article DOI is not yet available and is not
+included in the current Zenodo metadata.
 
 First-push instructions are provided in `docs/GITHUB_PUBLISH_RUNBOOK.md`.
 Zenodo archival instructions are provided in `docs/ZENODO_RELEASE_RUNBOOK.md`.
@@ -74,16 +75,15 @@ Zenodo archival instructions are provided in `docs/ZENODO_RELEASE_RUNBOOK.md`.
 
 Primary human sequencing data accession details and final Zenodo DOI are still
 pending final verification. Do not treat this repository as the final archived
-release until the final accession statement, Zenodo DOI, and license are
-inserted.
+release until the final accession statement and Zenodo DOI are inserted.
 
 ## Repository Release Checklist
 
 - Verify that no direct identifiers are present in public tables.
 - Replace manuscript placeholders for GitHub URL and Zenodo DOI.
 - Add a final data availability statement aligned with the journal submission.
-- Add a license file after the intended sharing terms are confirmed.
-- Finalize citation and Zenodo metadata templates.
+- MIT license file added for the repository release.
+- Finalize the Zenodo DOI in documentation after archival.
 - Follow `docs/GITHUB_PUBLISH_RUNBOOK.md` for the first GitHub push.
 - Follow `docs/ZENODO_RELEASE_RUNBOOK.md` for Zenodo archival.
 - Tag the final release and archive it with Zenodo.

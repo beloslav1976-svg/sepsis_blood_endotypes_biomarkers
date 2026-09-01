@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this repository, please cite the associated peer-reviewed article and archived repository release."
+message: "If you use this repository, please cite the associated Zenodo release and the peer-reviewed article when available."
 title: "Sepsis blood endotypes and biomarkers publication package"
 version: "v0.1.0"
 date-released: "2026-09-01"
