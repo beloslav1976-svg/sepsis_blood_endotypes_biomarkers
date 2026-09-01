@@ -1,7 +1,27 @@
 # Sepsis Blood Endotypes and Biomarkers
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22228575.svg)](https://doi.org/10.5281/zenodo.22228575)
+
 Publication-facing staging package for the manuscript on blood transcriptomic
 endotypes and biology-guided host-response biomarkers in sepsis.
+
+Repository: <https://github.com/beloslav1976-svg/sepsis_blood_endotypes_biomarkers>
+
+## Authors and citation
+
+- Vyacheslav Beloussov ([ORCID 0000-0003-1922-156X](https://orcid.org/0000-0003-1922-156X))
+- Vitaliy Strochkov ([ORCID 0000-0003-3399-2942](https://orcid.org/0000-0003-3399-2942))
+- Nurlan Sandybayev ([ORCID 0000-0003-1814-2798](https://orcid.org/0000-0003-1814-2798))
+
+Repository correspondence: Vyacheslav Beloussov
+([beloslav1976@gmail.com](mailto:beloslav1976@gmail.com)). Citation metadata
+are provided in `CITATION.cff`. Release v0.1.0 is archived under the
+version-specific DOI
+[10.5281/zenodo.22228576](https://doi.org/10.5281/zenodo.22228576), and the
+all-versions DOI is
+[10.5281/zenodo.22228575](https://doi.org/10.5281/zenodo.22228575). The
+manuscript citation will be added when available. Release history is documented
+in `CHANGELOG.md`.
 
 ## Contents
 
