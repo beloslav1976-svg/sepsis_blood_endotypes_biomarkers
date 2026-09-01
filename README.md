@@ -68,6 +68,7 @@ They contain placeholders and should be finalized only after author metadata,
 license, article DOI, and Zenodo DOI are confirmed.
 
 First-push instructions are provided in `docs/GITHUB_PUBLISH_RUNBOOK.md`.
+Zenodo archival instructions are provided in `docs/ZENODO_RELEASE_RUNBOOK.md`.
 
 ## Data Availability Status
 
@@ -84,4 +85,5 @@ inserted.
 - Add a license file after the intended sharing terms are confirmed.
 - Finalize citation and Zenodo metadata templates.
 - Follow `docs/GITHUB_PUBLISH_RUNBOOK.md` for the first GitHub push.
+- Follow `docs/ZENODO_RELEASE_RUNBOOK.md` for Zenodo archival.
 - Tag the final release and archive it with Zenodo.

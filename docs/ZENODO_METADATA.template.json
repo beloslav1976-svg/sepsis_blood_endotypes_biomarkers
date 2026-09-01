@@ -1,6 +1,6 @@
 {
   "title": "Sepsis blood endotypes and biomarkers publication package",
-  "upload_type": "dataset",
+  "upload_type": "software",
   "description": "Publication-facing code, figures, tables, supplementary files, freeze records, and audit documentation for the blood transcriptomic sepsis endotype and biomarker manuscript.",
   "creators": [
     {
@@ -16,7 +16,7 @@
     "biomarkers",
     "RNA-seq"
   ],
-  "license": "LICENSE_PLACEHOLDER",
+  "license": "SPDX_LICENSE_PLACEHOLDER",
   "version": "v0.1.0",
   "publication_date": "YYYY-MM-DD",
   "related_identifiers": [

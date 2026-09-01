@@ -39,6 +39,8 @@ not from any intermediate staging history that contained local provenance paths.
    confirmed.
 5. The staged R scripts use `SEPSIS_PROJECT_DIR` instead of personal local
    paths, but rerunning them still requires the expected input data layout.
+6. Zenodo GitHub integration must be enabled before creating the GitHub release
+   intended for archival.
 
 ## Privacy and Workbook Review
 
@@ -95,3 +97,4 @@ set is prepared.
 
 See `docs/GITHUB_PUBLISH_RUNBOOK.md` for the first-push command sequence and
 pre-push checks.
+See `docs/ZENODO_RELEASE_RUNBOOK.md` for Zenodo archival steps.

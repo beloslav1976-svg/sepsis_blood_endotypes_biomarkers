@@ -19,6 +19,7 @@
 - Verify no direct identifiers are present in all staged spreadsheets.
 - Decide whether earlier import/DESeq2 scripts before Script 135 should be
   included after privacy review.
+- Finalize `.zenodo.json` from `docs/ZENODO_METADATA.template.json`.
 
 ## Before Zenodo Archival
 

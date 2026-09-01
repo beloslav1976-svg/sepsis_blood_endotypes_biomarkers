@@ -21,6 +21,7 @@ article should cite this repository and the Zenodo archive DOI.
 - Confirm primary sequencing data accession wording.
 - Replace template placeholders in `docs/CITATION.cff.template` and
   `docs/ZENODO_METADATA.template.json`.
+- Copy the finalized Zenodo metadata to root `.zenodo.json`.
 - Create a signed or otherwise traceable release tag if required by the study
   team.
 - Archive the tagged release with Zenodo and update the article data
