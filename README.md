@@ -53,25 +53,28 @@ root. See `analysis_scripts/RUNNING_PUBLIC_SCRIPTS.md` and
 
 ## Current Release Status
 
-This directory is a local staging snapshot. It has not been pushed to GitHub and
-is not yet a final public release. The manuscript DOCX is intentionally excluded
-from this repository; the peer-reviewed article should cite the final GitHub
-repository and Zenodo DOI after release. See
-`docs/RELEASE_READINESS_AUDIT_2026-08-31.md` before publishing.
+This repository has been published on GitHub:
+
+`https://github.com/beloslav1976-svg/sepsis_blood_endotypes_biomarkers`
+
+It is a public repository package pending final release metadata. The manuscript
+DOCX is intentionally excluded from this repository; the peer-reviewed article
+should cite the final GitHub repository and Zenodo DOI after release. See
+`docs/RELEASE_READINESS_AUDIT_2026-08-31.md` before tagging or archiving.
 
 Publication metadata templates are provided in `docs/CITATION.cff.template`,
 `docs/ZENODO_METADATA.template.json`, and `docs/GITHUB_RELEASE_DRAFT.md`.
-They contain placeholders and should be finalized only after the repository URL,
-author metadata, license, article DOI, and Zenodo DOI are confirmed.
+They contain placeholders and should be finalized only after author metadata,
+license, article DOI, and Zenodo DOI are confirmed.
 
 First-push instructions are provided in `docs/GITHUB_PUBLISH_RUNBOOK.md`.
 
 ## Data Availability Status
 
-Primary human sequencing data accession details and final repository/Zenodo DOI
-are still pending final verification. Do not treat this staging directory as a
-public release until the final accession statement, GitHub URL, Zenodo DOI, and
-license are inserted.
+Primary human sequencing data accession details and final Zenodo DOI are still
+pending final verification. Do not treat this repository as the final archived
+release until the final accession statement, Zenodo DOI, and license are
+inserted.
 
 ## Repository Release Checklist
 

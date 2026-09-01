@@ -3,7 +3,7 @@ message: "If you use this repository, please cite the associated peer-reviewed a
 title: "Sepsis blood endotypes and biomarkers"
 version: "v0.1.0"
 date-released: "YYYY-MM-DD"
-repository-code: "https://github.com/OWNER/REPOSITORY"
+repository-code: "https://github.com/beloslav1976-svg/sepsis_blood_endotypes_biomarkers"
 doi: "10.5281/zenodo.PLACEHOLDER"
 authors:
   - family-names: "FAMILY_NAME"

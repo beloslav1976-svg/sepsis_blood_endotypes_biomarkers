@@ -15,7 +15,8 @@ article should cite this repository and the Zenodo archive DOI.
 
 ## Before Publishing
 
-- Confirm the final GitHub repository URL.
+- Confirm the final GitHub repository URL:
+  `https://github.com/beloslav1976-svg/sepsis_blood_endotypes_biomarkers`
 - Confirm license terms and add the selected `LICENSE` file.
 - Confirm primary sequencing data accession wording.
 - Replace template placeholders in `docs/CITATION.cff.template` and

@@ -2,7 +2,8 @@
 
 ## Before First Public GitHub Push
 
-- Confirm repository name and visibility.
+- Confirm repository name and visibility:
+  `https://github.com/beloslav1976-svg/sepsis_blood_endotypes_biomarkers`
 - Confirm license terms for code, tables, and figure exports.
 - Keep the working manuscript DOCX out of the public GitHub repository; the
   journal article will cite the repository after release.
@@ -21,7 +22,8 @@
 
 ## Before Zenodo Archival
 
-- Insert final GitHub URL in the manuscript.
+- Insert final GitHub URL in the manuscript:
+  `https://github.com/beloslav1976-svg/sepsis_blood_endotypes_biomarkers`
 - Insert final Zenodo DOI in the manuscript.
 - Regenerate `MANIFEST.csv` after the final file set is frozen.
 - Create a GitHub release tag.

@@ -31,9 +31,13 @@ Expected results:
 After the GitHub repository is created and the final visibility is confirmed:
 
 ```powershell
-git remote add origin https://github.com/OWNER/REPOSITORY.git
+git remote add origin https://github.com/beloslav1976-svg/sepsis_blood_endotypes_biomarkers.git
 git push -u origin main
 ```
+
+The repository has already been published at:
+
+`https://github.com/beloslav1976-svg/sepsis_blood_endotypes_biomarkers`
 
 If a release tag is ready:
 

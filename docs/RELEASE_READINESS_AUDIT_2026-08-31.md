@@ -7,7 +7,8 @@ Date: 2026-08-31
 - Local repository branch: `main`
 - Clean public-history source: `github_repo_public_release_clean` repository
   initialized from the sanitized public-ready file tree.
-- Remote repository: not configured
+- Remote repository:
+  `https://github.com/beloslav1976-svg/sepsis_blood_endotypes_biomarkers`
 - Manifest entries after metadata/template update: 131 files
 - Manuscript DOCX: intentionally excluded from the public-ready repository
 - Files larger than 100 MiB: none detected in the current working tree
@@ -16,21 +17,20 @@ Date: 2026-08-31
 
 ## Release Status
 
-Current status: **public-ready staging repository, pending final release
-metadata**.
+Current status: **published public GitHub repository, pending final release
+metadata and Zenodo archival**.
 
-The current repository is suitable as a clean local base for a public GitHub
-repository after the final license, data availability, citation, and Zenodo
-metadata are confirmed. It should not yet be treated as the final public release
-because the final GitHub URL, Zenodo DOI, article DOI, and license are still
-placeholders.
+The current repository is suitable as the public GitHub base after the final
+license, data availability, citation, and Zenodo metadata are confirmed. It
+should not yet be treated as the final archived release because the Zenodo DOI,
+article DOI, author metadata, and license are still placeholders.
 
 The public release should be created from `github_repo_public_release_clean`,
 not from any intermediate staging history that contained local provenance paths.
 
 ## Remaining Blockers Before Public Release
 
-1. Final GitHub URL and Zenodo DOI are not yet available.
+1. Final Zenodo DOI is not yet available.
 2. License terms for code, tables, and figure exports are not yet confirmed.
 3. Final accession-level data availability wording for primary human sequencing
    data is still pending.

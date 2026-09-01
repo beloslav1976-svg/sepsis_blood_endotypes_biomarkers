@@ -21,7 +21,7 @@
   "publication_date": "YYYY-MM-DD",
   "related_identifiers": [
     {
-      "identifier": "https://github.com/OWNER/REPOSITORY",
+      "identifier": "https://github.com/beloslav1976-svg/sepsis_blood_endotypes_biomarkers",
       "relation": "isSupplementTo",
       "resource_type": "software"
     },
