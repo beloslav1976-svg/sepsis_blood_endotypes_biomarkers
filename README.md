@@ -64,6 +64,8 @@ Publication metadata templates are provided in `docs/CITATION.cff.template`,
 They contain placeholders and should be finalized only after the repository URL,
 author metadata, license, article DOI, and Zenodo DOI are confirmed.
 
+First-push instructions are provided in `docs/GITHUB_PUBLISH_RUNBOOK.md`.
+
 ## Data Availability Status
 
 Primary human sequencing data accession details and final repository/Zenodo DOI
@@ -78,4 +80,5 @@ license are inserted.
 - Add a final data availability statement aligned with the journal submission.
 - Add a license file after the intended sharing terms are confirmed.
 - Finalize citation and Zenodo metadata templates.
+- Follow `docs/GITHUB_PUBLISH_RUNBOOK.md` for the first GitHub push.
 - Tag the final release and archive it with Zenodo.

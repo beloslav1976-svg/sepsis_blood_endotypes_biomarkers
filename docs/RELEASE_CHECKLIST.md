@@ -6,6 +6,8 @@
 - Confirm license terms for code, tables, and figure exports.
 - Keep the working manuscript DOCX out of the public GitHub repository; the
   journal article will cite the repository after release.
+- Use `github_repo_public_release_clean/sepsis_blood_endotypes_biomarkers` for
+  the first public push, not earlier staging repositories.
 - Decide whether staged R scripts should remain as provenance snapshots or be
   converted into a portable public analysis workflow.
 - Test `SEPSIS_PROJECT_DIR` execution on a clean local clone before public
@@ -26,6 +28,6 @@
 - Archive the release on Zenodo.
 - Save the Zenodo DOI and final release tag in the submission files.
 
-## Suggested Initial Commit Message
+## Current Clean Package Commit Message
 
-`Stage blood endotype biomarker publication package`
+`Initial public release clean package`

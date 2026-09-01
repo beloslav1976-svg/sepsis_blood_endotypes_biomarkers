@@ -5,10 +5,10 @@ Date: 2026-08-31
 ## Current Repository State
 
 - Local repository branch: `main`
-- Clean public-history source: sanitized public-ready staging tree derived from
-  base commit `ea138ee`
+- Clean public-history source: `github_repo_public_release_clean` repository
+  initialized from the sanitized public-ready file tree.
 - Remote repository: not configured
-- Manifest entries after metadata/template update: 130 files
+- Manifest entries after metadata/template update: 131 files
 - Manuscript DOCX: intentionally excluded from the public-ready repository
 - Files larger than 100 MiB: none detected in the current working tree
 - Absolute local path prefixes in freeze/provenance artifacts: replaced with
@@ -25,8 +25,8 @@ metadata are confirmed. It should not yet be treated as the final public release
 because the final GitHub URL, Zenodo DOI, article DOI, and license are still
 placeholders.
 
-The public release should be created from the sanitized file tree, not from any
-intermediate history that contained local provenance paths.
+The public release should be created from `github_repo_public_release_clean`,
+not from any intermediate staging history that contained local provenance paths.
 
 ## Remaining Blockers Before Public Release
 
@@ -92,3 +92,6 @@ set is prepared.
 4. Regenerate `MANIFEST.csv` after the final public file set is chosen.
 5. Create the public GitHub repository, push `main`, create a release tag, and
    archive the tagged release with Zenodo.
+
+See `docs/GITHUB_PUBLISH_RUNBOOK.md` for the first-push command sequence and
+pre-push checks.
