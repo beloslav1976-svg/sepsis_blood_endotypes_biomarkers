@@ -57,14 +57,20 @@ This repository has been published on GitHub:
 
 `https://github.com/beloslav1976-svg/sepsis_blood_endotypes_biomarkers`
 
-It is a public repository package pending final release metadata. The manuscript
-DOCX is intentionally excluded from this repository; the peer-reviewed article
-should cite the final GitHub repository and Zenodo DOI after release. See
-`docs/RELEASE_READINESS_AUDIT_2026-08-31.md` before tagging or archiving.
+Zenodo archival DOI:
+
+`10.5281/zenodo.22228576`
+
+Concept DOI for all versions:
+
+`10.5281/zenodo.22228575`
+
+The manuscript DOCX is intentionally excluded from this repository; the
+peer-reviewed article should cite the GitHub repository and Zenodo DOI.
 
 Publication metadata templates are provided in `docs/CITATION.cff.template`,
 `docs/ZENODO_METADATA.template.json`, and `docs/GITHUB_RELEASE_DRAFT.md`.
-Root `CITATION.cff`, `.zenodo.json`, and `LICENSE` have been prepared for the
+Root `CITATION.cff`, `.zenodo.json`, and `LICENSE` were prepared for the
 initial Zenodo archival release. The article DOI is not yet available and is not
 included in the current Zenodo metadata.
 
@@ -73,17 +79,16 @@ Zenodo archival instructions are provided in `docs/ZENODO_RELEASE_RUNBOOK.md`.
 
 ## Data Availability Status
 
-Primary human sequencing data accession details and final Zenodo DOI are still
-pending final verification. Do not treat this repository as the final archived
-release until the final accession statement and Zenodo DOI are inserted.
+Primary human sequencing data accession details are still pending final
+verification. The GitHub repository and Zenodo software archive are public.
 
 ## Repository Release Checklist
 
 - Verify that no direct identifiers are present in public tables.
-- Replace manuscript placeholders for GitHub URL and Zenodo DOI.
+- Replace manuscript placeholders with the GitHub URL and Zenodo DOI.
 - Add a final data availability statement aligned with the journal submission.
 - MIT license file added for the repository release.
-- Finalize the Zenodo DOI in documentation after archival.
+- Zenodo DOI finalized in repository documentation after archival.
 - Follow `docs/GITHUB_PUBLISH_RUNBOOK.md` for the first GitHub push.
 - Follow `docs/ZENODO_RELEASE_RUNBOOK.md` for Zenodo archival.
 - Tag the final release and archive it with Zenodo.

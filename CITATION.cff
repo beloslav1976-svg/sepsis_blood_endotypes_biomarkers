@@ -4,6 +4,7 @@ title: "Sepsis blood endotypes and biomarkers publication package"
 version: "v0.1.0"
 date-released: "2026-09-01"
 repository-code: "https://github.com/beloslav1976-svg/sepsis_blood_endotypes_biomarkers"
+doi: "10.5281/zenodo.22228576"
 license: "MIT"
 authors:
   - family-names: "Beloussov"

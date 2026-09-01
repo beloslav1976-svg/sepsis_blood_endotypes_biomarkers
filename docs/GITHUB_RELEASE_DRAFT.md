@@ -17,6 +17,7 @@ transcriptomic sepsis endotype and biomarker manuscript.
 Zenodo metadata are provided in root `.zenodo.json`.
 GitHub citation metadata are provided in root `CITATION.cff`.
 The repository is released under the MIT License.
+Zenodo DOI: `10.5281/zenodo.22228576`.
 
 The article DOI is not yet known and is intentionally not included in this
 initial release metadata. The manuscript DOCX is intentionally not included in

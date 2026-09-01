@@ -21,15 +21,17 @@
   included after privacy review.
 - Root `.zenodo.json` prepared for `v0.1.0`; article DOI is not yet included.
 
-## Before Zenodo Archival
+## Zenodo Archival Status
 
-- Insert final GitHub URL in the manuscript:
+- GitHub URL for manuscript:
   `https://github.com/beloslav1976-svg/sepsis_blood_endotypes_biomarkers`
-- Insert final Zenodo DOI in the manuscript.
-- Regenerate `MANIFEST.csv` after the final file set is frozen.
-- Create a GitHub release tag.
-- Archive the release on Zenodo.
-- Save the Zenodo DOI and final release tag in the submission files.
+- Zenodo DOI for manuscript:
+  `https://doi.org/10.5281/zenodo.22228576`
+- Concept DOI for all versions:
+  `https://doi.org/10.5281/zenodo.22228575`
+- GitHub release tag created: `v0.1.0`.
+- Release archived on Zenodo.
+- Save the Zenodo DOI and release tag in the submission files.
 
 ## Current Clean Package Commit Message
 

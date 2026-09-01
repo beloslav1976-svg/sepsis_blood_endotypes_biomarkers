@@ -9,7 +9,11 @@ DOI for the manuscript data availability statement.
 
 ## Current Status
 
-Zenodo archival is not yet complete.
+Zenodo archival is complete for `v0.1.0`.
+
+Version DOI: `10.5281/zenodo.22228576`
+
+Concept DOI: `10.5281/zenodo.22228575`
 
 The root `.zenodo.json`, `CITATION.cff`, and MIT `LICENSE` are prepared for the
 initial `v0.1.0` archival release. The article DOI is not yet known and is not
@@ -54,6 +58,8 @@ gh release create v0.1.0 --title "Sepsis blood endotypes and biomarkers publicat
    - `.zenodo.json`;
    - manuscript data availability statement.
 4. Commit and push the DOI update.
+
+The DOI update has been completed for `v0.1.0`.
 
 ## Notes
 

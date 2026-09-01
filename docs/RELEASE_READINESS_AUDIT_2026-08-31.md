@@ -1,6 +1,6 @@
 # Release Readiness Audit
 
-Date: 2026-08-31
+Date: 2026-09-01
 
 ## Current Repository State
 
@@ -9,7 +9,7 @@ Date: 2026-08-31
   initialized from the sanitized public-ready file tree.
 - Remote repository:
   `https://github.com/beloslav1976-svg/sepsis_blood_endotypes_biomarkers`
-- Manifest entries after metadata/template update: 131 files
+- Manifest entries after Zenodo DOI update: 135 files
 - Manuscript DOCX: intentionally excluded from the public-ready repository
 - Files larger than 100 MiB: none detected in the current working tree
 - Absolute local path prefixes in freeze/provenance artifacts: replaced with
@@ -17,27 +17,26 @@ Date: 2026-08-31
 
 ## Release Status
 
-Current status: **published public GitHub repository, Zenodo-ready metadata
-prepared, pending Zenodo archival**.
+Current status: **published public GitHub repository with Zenodo archival DOI
+issued for `v0.1.0`**.
 
-The current repository is suitable as the public GitHub base after final data
-availability wording and Zenodo archival are complete. It should not yet be
-treated as the final archived release because the Zenodo DOI has not yet been
-issued. The article DOI is not yet known and is intentionally not included in
-the current Zenodo metadata.
+The current repository is suitable as the public GitHub and Zenodo software
+archive base. The article DOI is not yet known and is intentionally not included
+in the current Zenodo metadata.
+
+Zenodo version DOI: `10.5281/zenodo.22228576`
+
+Zenodo concept DOI: `10.5281/zenodo.22228575`
 
 The public release should be created from `github_repo_public_release_clean`,
 not from any intermediate staging history that contained local provenance paths.
 
 ## Remaining Blockers Before Public Release
 
-1. Final Zenodo DOI is not yet available.
-2. Zenodo GitHub integration must be enabled before creating the GitHub release
-   intended for archival.
-3. Final accession-level data availability wording for primary human sequencing
+1. Final accession-level data availability wording for primary human sequencing
    data is still pending.
-4. The article DOI should be added later when known.
-5. The staged R scripts use `SEPSIS_PROJECT_DIR` instead of personal local
+2. The article DOI should be added later when known.
+3. The staged R scripts use `SEPSIS_PROJECT_DIR` instead of personal local
    paths, but rerunning them still requires the expected input data layout.
 
 ## Privacy and Workbook Review
@@ -88,10 +87,9 @@ set is prepared.
 1. Keep the manuscript DOCX outside the public repository; the journal article
    should cite the released repository and Zenodo DOI.
 2. Confirm data availability wording.
-3. Enable the repository in Zenodo GitHub integration.
-4. Regenerate `MANIFEST.csv` after the final public file set is chosen.
-5. Create the public GitHub repository, push `main`, create a release tag, and
-   archive the tagged release with Zenodo.
+3. Add article DOI when available.
+4. Create a new GitHub/Zenodo version if any repository content changes are
+   needed after submission.
 
 See `docs/GITHUB_PUBLISH_RUNBOOK.md` for the first-push command sequence and
 pre-push checks.
